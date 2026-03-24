@@ -1,0 +1,36 @@
+/*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-light,
+.btn-light:hover,
+.btn-light:focus {
+    color: #333;
+    text-shadow: none;
+    /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+
+
+:host {
+    flex: 1;
+    display: flex;
+}
+
+main {
+    margin: auto;
+    text-align: center;
+}
+
+
+.cover-container {
+    max-width: 42em;
+}
+
+
