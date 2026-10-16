@@ -1,0 +1,114 @@
+:host {
+	display: block;
+	text-align: left;
+	text-shadow: none;
+	color: #b4bdc3;
+	font-family: 'Avenir Next', 'Trebuchet MS', sans-serif;
+}
+
+.site-footer {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 32px 16px 8px;
+	border-top: 1px solid #ffffff24;
+}
+
+.footer-main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 32px;
+	padding-bottom: 32px;
+}
+
+.footer-identity {
+	max-width: 320px;
+}
+
+.footer-brand {
+	font-size: 20px;
+	font-weight: 600;
+	color: #f4f5f6;
+}
+
+.footer-brand span {
+	color: #97e1c2;
+}
+
+.footer-identity p {
+	margin: 10px 0 0;
+	font-size: 13px;
+	line-height: 1.7;
+}
+
+.footer-nav {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	gap: 12px 24px;
+	max-width: 320px;
+}
+
+.footer-label {
+	flex-basis: 100%;
+	margin: 0;
+	font-family: 'Courier New', monospace;
+	font-size: 11px;
+}
+
+.footer-nav a {
+	color: #f4f5f6;
+	font-size: 13px;
+}
+
+.footer-nav .bi {
+	margin-left: 4px;
+	font-size: 10px;
+	color: #97e1c2;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #97e1c2;
+}
+
+a:focus-visible {
+	outline: 2px solid #97e1c2;
+	outline-offset: 5px;
+	border-radius: 2px;
+}
+
+.footer-bottom {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 12px 24px;
+	padding-top: 20px;
+	border-top: 1px solid #ffffff16;
+	font-size: 12px;
+}
+
+.footer-signature {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.bi-heart-fill {
+	color: #eba6b4;
+	font-size: 10px;
+}
+
+.bi-code-slash {
+	color: #97e1c2;
+	font-size: 16px;
+}
+
+@media (max-width: 600px) {
+	.site-footer {
+		padding: 28px 0 8px;
+	}
+}

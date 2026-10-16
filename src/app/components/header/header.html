@@ -1,10 +1,13 @@
-<header class="mb-auto">
-    <div>
-        <h3 class="float-md-start mb-0">Neitan Worales <i class="bi bi-boombox"></i></h3>
-        <nav class="nav nav-masthead justify-content-center float-md-end"> 
-            <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#"><i class="bi bi-vinyl"></i> Home</a>
-            <a class="nav-link fw-bold py-1 px-0" href="#"><i class="bi bi-boombox-fill"></i> RAP Music</a>
-            <a class="nav-link fw-bold py-1 px-0" href="#"><i class="bi bi-pc-display-horizontal"></i> Projects</a>
+<header class="site-header">
+    <div class="header-content">
+        <a class="brand" routerLink="/home" aria-label="Neitan Worales, inicio">
+            <i class="bi bi-boombox brand-icon" aria-hidden="true"></i>
+            <span class="brand-copy"><span class="brand-name">Neitan Worales<span class="brand-dot">.</span></span><span class="brand-domain">neitanworales.com</span></span>
+        </a>
+        <nav class="nav-masthead" aria-label="Navegación principal">
+            <a class="nav-link" routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" ariaCurrentWhenActive="page"><i class="bi bi-vinyl" aria-hidden="true"></i> Home</a>
+            <a class="nav-link" routerLink="/projects" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" ariaCurrentWhenActive="page"><i class="bi bi-pc-display-horizontal" aria-hidden="true"></i> Projects</a>
+            <a class="nav-link" href="https://rap.neitanworales.com" target="_blank" rel="noopener noreferrer" aria-label="RAP Music (abre en otra pestaña)"><i class="bi bi-boombox-fill" aria-hidden="true"></i> RAP Music <i class="bi bi-arrow-up-right external-icon" aria-hidden="true"></i></a>
         </nav>
     </div>
 </header>

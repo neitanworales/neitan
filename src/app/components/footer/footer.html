@@ -1,4 +1,18 @@
-<footer class="mt-auto text-white-50">
-    <span class="copyright">© 1987, made with <i class="bi bi-heart-fill"></i> by Neitan Worales <i
-            class="bi bi-code-slash"></i></span>
+<footer class="site-footer">
+    <div class="footer-main">
+        <div class="footer-identity">
+            <a class="footer-brand" routerLink="/home">Neitan Worales<span>.</span></a>
+            <p>Desarrollo web, música y proyectos personales.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Navegación del pie de página">
+            <p class="footer-label">EXPLORAR</p>
+            <a routerLink="/home">Home</a>
+            <a routerLink="/projects">Projects</a>
+            <a href="https://rap.neitanworales.com" target="_blank" rel="noopener noreferrer" aria-label="RAP Music (abre en otra pestaña)">RAP Music <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a>
+        </nav>
+    </div>
+    <div class="footer-bottom">
+        <span class="copyright">© 1987–{{ currentYear }} Neitan Worales</span>
+        <span class="footer-signature">Hecho con <i class="bi bi-heart-fill" aria-hidden="true"></i><span class="visually-hidden">amor</span> y <i class="bi bi-code-slash" aria-hidden="true"></i><span class="visually-hidden">código</span></span>
+    </div>
 </footer>
